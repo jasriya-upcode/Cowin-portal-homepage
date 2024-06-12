@@ -1,0 +1,76 @@
+.scrollable-tabs-container {
+  background-color: aqua;
+  max-width: 500px;
+  margin: 16px auto;
+  border-radius: 4PX;
+  overflow: hidden;
+  margin-right: 90px;
+  position: relative;
+  height: max-content;
+}
+
+
+
+.scrollable-tabs-container ul {
+  display: flex;
+  gap: 16px;
+  padding: 12px 24px;
+  margin: 0;
+  list-style: none;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollable-tabs-container ul::-webkit-scrollbar{
+  display: none;
+}
+
+.scrollable-tabs-container a {
+  color: black;
+  text-decoration: none;
+  padding: 4px 24px;
+  display: inline-block;
+  border-radius: 4px;
+  user-select: none;
+  white-space:nowrap;
+}
+.scrollable-tabs-container a.active{
+  background-color: white;
+  color: black;
+}
+
+
+.scroll-bar {
+  background-color: white;
+  width: 50%;
+  max-height: 500px;
+  overflow: auto;
+}
+  .scroll-bar::-webkit-scrollbar {
+  width: 5px;
+  color: rgb(10, 95, 95);
+  background: #f1f1f1;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+  background: rgb(5, 97, 97);
+}
+.scroll-bar-1{
+  background-color: white;
+  width: 70%;
+  max-height: 300px;
+  overflow: auto;
+    margin-left: 150px;
+  
+}
+ .scroll-bar-1::-webkit-scrollbar{
+  width: 5px;
+  color: rgb(10, 95, 95);
+  background: #f1f1f1;
+}
+.scroll-bar-1::-webkit-scrollbar-thumb{
+  background-color: black;
+}
+
+
+/*# sourceMappingURL=style.css.map */

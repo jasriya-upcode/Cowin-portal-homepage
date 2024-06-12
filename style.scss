@@ -1,0 +1,26 @@
+$primary-colour:teal;
+$heading-font-size:24px;
+.scrollable-tabs-container{
+    background-color: brown;
+    max-width: 500px;
+    margin: 16px auto;
+    border-radius: 4PX;
+}
+.scrollable-tabs-container svg{
+    width: 25px;
+    height: 25px;
+    padding: 8px;
+     cursor: pointer;
+     color:black;
+     display: none;
+}
+.scrollable-tabs-container ul{
+    display: flex;
+    gap: 16px;
+    padding: 12px 24px;
+    margin: 0;
+}
+.scrollable-tabs-container a{
+    color: white;
+    text-decoration: none;
+}
